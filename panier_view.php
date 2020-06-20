@@ -1,10 +1,10 @@
 <?php if (isset($_SESSION['login']) && isset($_COOKIE[$_SESSION['login']])) {
   ?><table>
     <tr>
-      <th>Produit(s)</th>
-      <th>Quantité</th>
-      <th>Prix unitaire</th>
-      <th>Prix total</th>
+      <th>Produit(s) : </th>
+      <th>Quantité : </th>
+      <th>Prix unitaire : </th>
+      <th>Prix total : </th>
       <th></th>
     </tr>
     <?php
