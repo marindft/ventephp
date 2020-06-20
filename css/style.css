@@ -1,0 +1,61 @@
+input {
+  margin: 5px;
+}
+.header {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
+}
+.gauche {
+  float: left;
+  width: 15%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+.droite {
+  float: right;
+  width: 80%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+td {
+  text-align: center;
+  padding: 10px;
+}
+td img {
+  width: 100px;
+}
+th {
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 250px;
+  height: auto;
+}
+.produit {
+  margin: 10px;
+  width: 30%;
+  position: relative;
+  display: inline-block;
+}
+.imageProd {
+  margin: 10px;
+  width: 40%;
+  position: relative;
+  display: inline-block;
+}
+#retour {
+ position: static;
+}
+.infosProd {
+  margin: 10px;
+  width: 40%;
+  height: auto;
+  position:absolute;
+  display: inline-block;
+}
